@@ -1,7 +1,9 @@
 <template>
   <div class="home" :class="useStore().darkMode == true ? 'dark' : 'light'">
     <NavBar />
-    <Groups />
+    <main class="main flex center center-colum">
+      <Groups />
+    </main>
   </div>
 </template>
 
