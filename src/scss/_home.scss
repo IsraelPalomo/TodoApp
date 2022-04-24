@@ -1,0 +1,12 @@
+@import './variables';
+
+.home {
+  height: 100vh;
+}
+.dark {
+  background-color: $black;
+  color: $white;
+}
+.light {
+  background-color: $white;
+}

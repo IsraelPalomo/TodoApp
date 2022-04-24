@@ -1,0 +1,20 @@
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  .description {
+    h1,
+    h3 {
+      margin: 0;
+    }
+    h1 {
+      padding-bottom: 0.5rem;
+    }
+    h3 {
+      font-weight: 400;
+    }
+  }
+  .actions {
+    gap: 3rem;
+  }
+}

@@ -1,0 +1,18 @@
+.lang-controller {
+  align-items: center;
+  border-radius: 15px;
+  background-color: $dark-grey;
+  color: $white;
+  height: 2.5rem;
+  width: 3rem;
+  cursor: pointer;
+  .lang-value {
+    margin: 0;
+  }
+}
+.more-langs {
+  gap: 1rem;
+}
+.enactive {
+  opacity: 0.5;
+}

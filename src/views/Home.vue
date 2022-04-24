@@ -1,19 +1,17 @@
 <template>
-  <div class="home">
-    <h1 class="flex center">{{ $t('language') }}</h1>
+  <div class="home" :class="useStore().darkMode == true ? 'dark' : 'light'">
+    <NavBar />
     <Groups />
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+//Components
+import NavBar from '../components/NavBar.vue';
 import Groups from '../components/Groups.vue';
+//Vue
+import { onMounted } from 'vue';
 import i18n, { useI18n } from 'vue-i18n';
-import { useCounterStore } from '../store/index';
-onMounted(() => {
-  useI18n().locale.value = 'es';
-});
+//Store
+import { useStore } from '../store/index';
 </script>
-<style lang="scss" scoped>
-@import '../scss/main.scss';
-</style>
