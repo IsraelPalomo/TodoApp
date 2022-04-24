@@ -1,1 +1,6 @@
-{ "language": "FRANCES" }
+{
+  "nav": {
+    "title": "Todo App",
+    "subtitle": "Commencez à créer vos tâches avec Todo App"
+  }
+}

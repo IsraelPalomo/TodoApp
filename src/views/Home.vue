@@ -10,7 +10,7 @@
 import NavBar from '../components/NavBar.vue';
 import Groups from '../components/Groups.vue';
 //Vue
-import { onMounted } from 'vue';
+
 import i18n, { useI18n } from 'vue-i18n';
 //Store
 import { useStore } from '../store/index';

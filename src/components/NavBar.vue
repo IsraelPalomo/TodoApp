@@ -1,10 +1,9 @@
 <template>
   <nav class="navbar flex">
     <section class="description">
-      <h1>{{ $t('language') }}</h1>
+      <h1>{{ $t('nav.title') }}</h1>
       <h3>
-        Start creating your tasks with <br />
-        TodoApp
+        {{ $t('nav.subtitle') }}
       </h3>
     </section>
     <section class="actions flex">
@@ -18,5 +17,3 @@
 import LangUI from './LangUI.vue';
 import DarkModeUI from './DarkModeUI.vue';
 </script>
-
-<style scoped></style>
