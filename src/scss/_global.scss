@@ -1,3 +1,10 @@
+footer {
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
 }
@@ -33,4 +40,7 @@ h1 {
 .center-colum {
   align-items: center;
   align-content: center;
+}
+.space-b {
+  justify-content: space-between;
 }

@@ -14,6 +14,6 @@
 </template>
 
 <script setup lang="ts">
-import LangUI from './LangUI.vue';
-import DarkModeUI from './DarkModeUI.vue';
+import LangUI from './UI/LangUI.vue';
+import DarkModeUI from './UI/DarkModeUI.vue';
 </script>
