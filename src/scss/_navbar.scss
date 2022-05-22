@@ -11,10 +11,27 @@
       padding-bottom: 0.5rem;
     }
     h3 {
-      font-weight: 400;
+      font-weight: 300;
+      font-style: italic;
+      max-width: 250px;
     }
   }
   .actions {
     gap: 3rem;
+  }
+  .navbar__menu {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    .actions {
+      display: none;
+    }
+    .navbar__menu {
+      display: block;
+      z-index: 15;
+    }
   }
 }

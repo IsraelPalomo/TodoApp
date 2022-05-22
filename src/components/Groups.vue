@@ -1,22 +1,22 @@
 <template>
   <div class="groups grid">
     <Group color="#3E3B3F">
-      <Settings :size="50" color="white" />
+      <Settings class="icon-group" :size="50" color="white" />
     </Group>
     <Group color="#5E57B1">
-      <Home :size="50" color="white" />
+      <Home class="icon-group" :size="50" color="white" />
     </Group>
     <Group color="#57B181">
-      <Bike :size="50" color="white" />
+      <Bike class="icon-group" :size="50" color="white" />
     </Group>
     <Group color="#A557B1">
-      <Pencil :size="50" color="white" />
+      <Pencil class="icon-group" :size="50" color="white" />
     </Group>
     <Group color="#CC5A5A">
-      <Lightbulb :size="50" color="white" />
+      <Lightbulb class="icon-group" :size="50" color="white" />
     </Group>
     <Group color="#57B1B1">
-      <BookOpen :size="50" color="white" />
+      <BookOpen class="icon-group" :size="50" color="white" />
     </Group>
   </div>
 </template>

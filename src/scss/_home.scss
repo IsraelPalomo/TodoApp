@@ -10,3 +10,18 @@
 .light {
   background-color: $white;
 }
+.menu-side {
+  height: 100vh !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  width: 10rem !important;
+  background-color: $black;
+}
+
+@media (max-width: 500px) {
+  .copy__right {
+    display: none;
+  }
+}

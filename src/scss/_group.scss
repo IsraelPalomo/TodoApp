@@ -5,3 +5,14 @@
   background-color: $dark;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  .group {
+    height: 4rem;
+    width: 4rem;
+  }
+  .icon-group {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
